@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: 100px auto;
+    
+}
+table thead tr th {
+    background-color: gray;
+    
+}

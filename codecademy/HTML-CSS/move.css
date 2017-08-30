@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    font-size: 150px;
+}
+.header {
+    height: 600px;
+    width:100%;
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg");
+    background-size: cover;
+    background-origin: content-box;
+    margin: auto;
+
+}
+.content {
+    color: white;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+.content p {
+    margin: 0 0 20px 0;
+}
+.content a {
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    background: black;
+    color:white;
+    text-decoration: none;
+    vertical-align: center;
+    overflow: hidden;
+    padding: 8px 30px;
+    font-size: 18px;
+}
+.content a:hover {
+    background: #ffa800;
+    color:black;
+}
+
+.supporting {
+    height: 315px;
+    background-color: black;
+}
+.container {
+    display: flex;
+    padding: 100px 0 0 40px;
+}
+
+.container h2 {
+    font-size: 35px;
+    color:#ffa800;
+}
+.container p{
+    font-size: 12px;
+    line-height: 20px;
+    color:white;
+    overflow: hidden;
+    text-align: center;
+}
+.section1 {
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg") no-repeat center center;
+    height: 600px;
+    background-origin: content-box;
+    background-size: cover;
+}
+.section1 p {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding:275px 0 0 0;
+}
+.section2 {
+    height: 320px;
+    background-color: black;
+    text-align: center;
+}
+.section2 p {
+    color: white;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.section2 h2 {
+    padding: 100px 0 30px 0;
+    font-size: 35px;
+    color: #ffa800;
+}
+.section2 a {
+    display: inline-block;
+    text-decoration:none;
+    background-color: white;
+    height: 42px;
+    width: 150px;
+    color: black;
+}
+.section2 a p {
+    color: black;
+    padding: 15px 0 0 0;
+    font-weight: bold;
+   
+}
+.section2 a:hover {
+    color: black;
+    background-color: #ffa800;
+}
+
+.section3 {
+    height: 600px;
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg") no-repeat center center;
+    background-size: cover;
+    background-origin: content-box;
+}
+.section3 p {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 275px 0 10px 0;
+}
+.section3 a {
+    background-color: black;
+    height: 42px;
+    width: 150px;
+    text-decoration: none;
+
+}
+
